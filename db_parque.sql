@@ -257,17 +257,6 @@ ALTER TABLE Cabanas ADD CONSTRAINT acompanante_reserva_FK FOREIGN KEY (id_habita
 
 
 -- AGREGO DATOS:
--- Agrego datos a Clientes:
-INSERT INTO Clientes VALUES (16234567,'5','Steve','','Henderson','Delgado','Su casa #123',5555464,'juanito@gmail.com',2 );
-INSERT INTO Clientes VALUES (15987341,'6','Jhon','','Anderson','Glosh','Su casa #123',5555464,'juanito@gmail.com',2 );
-INSERT INTO Clientes VALUES (14623874,'7','Samantha','','Mazar','Delgado','Su casa #123',5555464,'juanito@gmail.com',2 );
-INSERT INTO Clientes VALUES (14633852,'3','Sara','','Hanemann','Román','Su casa #123',5555464,'juanito@gmail.com',2 );
-
--- Agrego datos a Acompañantes:
-INSERT INTO Acompanantes VALUES (15678906,'9','Julieta','','Doltan','Romo','Su casa #123',5555464,'juanito@gmail.com',2 );
-INSERT INTO Acompanantes VALUES (15879478,'8','Alberto','','Ramirez','Smith','Su casa #123',5555464,'juanito@gmail.com',2 );
-INSERT INTO Acompanantes VALUES (15678989,'8','Romina','','Rhoms','Zurich','Su casa #123',5555464,'juanito@gmail.com',2 );
-
 -- Agrego datos a Comunas:
 INSERT INTO Comunas VAlUES (1,'Arica',1),
 INSERT INTO Comunas VAlUES (2,'Camarones',1),
@@ -692,6 +681,17 @@ INSERT INTO Parques VALUES (1,'Parque Springfield');
 
 -- Agrego datos a Sector:
 INSERT INTO Sector VALUES (1,'Patagonia',1);
+
+-- Agrego datos a Clientes:
+INSERT INTO Clientes VALUES (16234567,'5','Steve','','Henderson','Delgado','Su casa #123',5555464,'juanito@gmail.com',2 );
+INSERT INTO Clientes VALUES (15987341,'6','Jhon','','Anderson','Glosh','Su casa #123',5555464,'juanito@gmail.com',2 );
+INSERT INTO Clientes VALUES (14623874,'7','Samantha','','Mazar','Delgado','Su casa #123',5555464,'juanito@gmail.com',2 );
+INSERT INTO Clientes VALUES (14633852,'3','Sara','','Hanemann','Román','Su casa #123',5555464,'juanito@gmail.com',2 );
+
+-- Agrego datos a Acompañantes:
+INSERT INTO Acompanantes VALUES (15678906,'9','Julieta','','Doltan','Romo','Su casa #123',5555464,'juanito@gmail.com',2 );
+INSERT INTO Acompanantes VALUES (15879478,'8','Alberto','','Ramirez','Smith','Su casa #123',5555464,'juanito@gmail.com',2 );
+INSERT INTO Acompanantes VALUES (15678989,'8','Romina','','Rhoms','Zurich','Su casa #123',5555464,'juanito@gmail.com',2 );
 
 -- Agrego datos a Reserva:
 INSERT INTO Reservas VALUES (01,'22-06-2022',16234567,'23-06-2022','30-06-2022',300000, 359000,1,4,1);
