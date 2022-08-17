@@ -23,3 +23,6 @@ git push origin master (main es el nombre de la rama)
 
 Push para la rama:
 git push -u origin nombreRama
+
+Oracle SQL Developer
+Ver lineas = Herramientas > Preferencias > Editor de Código > Medianil > Mostrar números de lineas
